@@ -1,0 +1,23 @@
+{
+  "name": "srm-desk-webapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "next-auth": "^4.24.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@upstash/redis": "^1.34.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
